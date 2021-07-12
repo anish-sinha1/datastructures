@@ -1,3 +1,10 @@
+/*******************************************************************************
+ *
+ * *This program takes an expression as input and parses it for balanced
+ * *parentheses, brackets, and curly braces.
+ *
+ * ****************************************************************************/
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
