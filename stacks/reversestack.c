@@ -71,8 +71,8 @@ void print(void) {         // function to print each element in the list/stack
 
 void reverse(char *array) { // function to reverse the list
   for (int i = 0; i < strlen(array);
-       i++) { // until iterator variable i is equal to the length of the
-              // character array
+       i++) {       // until iterator variable i is equal to the length of the
+                    // character array
     push(array[i]); // push every element of the array into it
   }
   print(); // print the array
